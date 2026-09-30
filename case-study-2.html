@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reducing Friction in MailDrip's Instant Email Experience — Hannah M. Daniel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;family=Inter:ital,wght@0,400;0,500;0,600;1,400&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=Caveat:wght@500;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <nav class="nav" aria-label="Primary">
+    <a href="index.html" class="nav-logo">Hannah M. Daniel</a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="work.html" aria-current="page">Selected Work</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="expertise.html">Expertise</a></li>
+      <li><a href="research-stories.html">Research Stories</a></li>
+      <li><a href="impact.html">Impact</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+  <article class="section-pad" style="padding-top:80px;">
+    <div class="container--copy">
+
+      <a href="work.html" style="font-size:14px; color:var(--text-secondary);">← Selected Work</a>
+
+      <h1 class="heading-lg reveal is-visible" style="margin-top:24px; margin-bottom:16px;">Reducing Friction in MailDrip's Instant Email Experience</h1>
+      <p class="body-lg reveal is-visible" style="margin-bottom:32px;">Improving the Instant Email workflow by identifying where users were getting stuck, understanding why, and turning those findings into clearer product guidance.</p>
+
+      <div class="reveal" style="display:flex; gap:48px; flex-wrap:wrap; margin-bottom:40px; font-size:15px;">
+        <div>
+          <p class="eyebrow" style="margin-bottom:6px;">Role</p>
+          <p style="margin:0;">Lead UX Researcher</p>
+        </div>
+        <div>
+          <p class="eyebrow" style="margin-bottom:6px;">Methods</p>
+          <p style="margin:0; max-width:480px;">Heuristic Evaluation • Workflow Audit • Competitor Analysis • Customer Feedback • Walkthrough Observations • UX Best Practice Review</p>
+        </div>
+      </div>
+
+      <div class="stat-grid reveal" style="margin-bottom:48px;">
+        <div class="stat-item">
+          <p class="stat-label">Methods Used</p>
+          <p class="stat-value">6</p>
+        </div>
+        <div class="stat-item">
+          <p class="stat-label">Usability Issues Found</p>
+          <p class="stat-value">4</p>
+        </div>
+        <div class="stat-item">
+          <p class="stat-label">Improvements Shipped</p>
+          <p class="stat-value">7</p>
+        </div>
+        <div class="stat-item">
+          <p class="stat-label">Focus Area</p>
+          <p class="stat-value" style="font-size:clamp(20px,2.2vw,26px);">Instant Email</p>
+        </div>
+      </div>
+
+      <h2 class="heading-md reveal cs-heading" style="margin-bottom:20px;">The Challenge</h2>
+      <div class="reveal problem-card body-copy">
+        <p>MailDrip's Instant Email feature was designed to help users create and send emails quickly.</p>
+        <p>But during walkthroughs and feedback sessions, it became clear that the problem wasn't whether the feature worked.</p>
+        <p><strong>Users weren't always sure how to use it.</strong></p>
+        <p>They struggled to understand:</p>
+        <ul style="line-height:1.9;">
+          <li>What they had already completed</li>
+          <li>What they needed to do next</li>
+          <li>Which action mattered most</li>
+          <li>Whether they were ready to send</li>
+          <li>What the different status labels meant</li>
+        </ul>
+        <p>The workflow had the functionality users needed, but the experience wasn't giving them enough direction.</p>
+      </div>
+
+      <div class="grid-image ratio-auto reveal" style="margin:20px 0 32px;">
+        <img src="assets/images/image11.png" alt="MailDrip Instant Email workflow screenshot showing the email creation interface">
+      </div>
+
+      <p class="reveal" style="font-weight:600; margin-bottom:16px;">Usability Issues Identified</p>
+      <div class="body-copy reveal">
+        <h3 style="font-size:18px; margin-bottom:8px;">Ambiguous Toggle Labels (Ready / Unset)</h3>
+        <h3 style="font-size:18px; margin-bottom:8px;">Multiple Calls to Action (Per Section vs Global)</h3>
+        <h3 style="font-size:18px; margin-bottom:24px;">Button Placement &amp; Hierarchy</h3>
+      </div>
+
+      <div class="grid-image ratio-auto reveal" style="margin:0 0 64px;">
+        <img src="assets/images/image15.png" alt="Instant Email interface highlighting ambiguous toggle labels and competing calls to action">
+      </div>
+
+      <h2 class="heading-md reveal cs-heading" style="margin-bottom:20px;">Why We Investigated</h2>
+      <div class="body-copy reveal">
+        <p>The Product team wanted to understand why users were experiencing friction even though the workflow was already functional.</p>
+        <p>I focused the research around a few questions:</p>
+        <ul style="line-height:1.9;">
+          <li>Where were users getting stuck?</li>
+          <li>What was causing hesitation?</li>
+          <li>Were the completion states clear enough?</li>
+          <li>Were too many actions competing for attention?</li>
+          <li>How were similar products handling these moments?</li>
+          <li>Where could MailDrip give users better guidance without adding unnecessary complexity?</li>
+        </ul>
+      </div>
+
+      <h2 class="heading-md reveal cs-heading" style="margin:44px 0 16px;">My Role</h2>
+      <div class="body-copy reveal">
+        <p>As the Lead UX Researcher, I:</p>
+        <ul style="line-height:1.9;">
+          <li>Defined the research objectives</li>
+          <li>Conducted a heuristic evaluation</li>
+          <li>Audited the existing workflow</li>
+          <li>Reviewed customer feedback and walkthrough observations</li>
+          <li>Analysed competitor experiences</li>
+          <li>Reviewed UX patterns and best practices</li>
+          <li>Synthesised the findings</li>
+          <li>Presented recommendations to Product and Design</li>
+          <li>Supported conversations around implementation and product direction</li>
+        </ul>
+      </div>
+
+      <h2 class="heading-md reveal cs-heading" style="margin:44px 0 16px;">Research Approach</h2>
+      <div class="body-copy reveal">
+        <p>Rather than jumping straight into a redesign, I first looked at the experience from multiple angles.</p>
+        <p><strong>I examined:</strong></p>
+        <ul style="line-height:1.9;">
+          <li><strong>The existing workflow</strong> — Where users moved, paused, hesitated, or became unsure.</li>
+          <li><strong>The interface</strong> — How labels, states, buttons and hierarchy communicated what users should do.</li>
+          <li><strong>User feedback</strong> — What customers were actually confused about during walkthroughs and support conversations.</li>
+          <li><strong>Competitors</strong> — How other email marketing products handled similar creation, quality, and spam-related moments.</li>
+        </ul>
+        <p>This helped separate <strong>surface-level UI problems from the deeper reasons behind them.</strong></p>
+      </div>
+
+      <h2 class="heading-md reveal cs-heading" style="margin:44px 0 16px;">What We Found</h2>
+      <div class="body-copy reveal">
+        <h3 style="font-size:19px; margin-bottom:10px;">01 — Completion wasn't clear enough</h3>
+        <p>The "Ready" and "Unset" states didn't give users enough confidence about what was complete and what still needed attention.</p>
+      </div>
+
+      <div class="grid-image ratio-auto reveal" style="margin:0 0 48px;">
+        <img src="assets/images/image13.png" alt="Interface showing Ready and Unset completion state labels">
+      </div>
+
+      <div class="body-copy reveal">
+        <h3 style="font-size:19px; margin-bottom:10px;">02 — Too many actions competed for attention</h3>
+        <p>Section-level actions and global actions made it harder to tell what the primary next step was.</p>
+      </div>
+
+      <div class="grid-image ratio-auto reveal" style="margin:0 0 48px;">
+        <img src="assets/images/image27.png" alt="Interface showing section-level and global actions competing for attention">
+      </div>
+
+      <div class="body-copy reveal">
+        <h3 style="font-size:19px; margin-bottom:10px;">03 — The workflow lacked a clear sense of progress</h3>
+        <p>Users had limited visibility into where they were in the process and how close they were to completing their email.</p>
+
+        <h3 style="font-size:19px; margin:28px 0 8px;">04 — AI needed more context to be useful</h3>
+        <p>The existing AI experience could generate content, but the quality of the output depended heavily on how much context the user provided.</p>
+        <p>That raised another question:</p>
+        <p>Could we help users give the AI the information it actually needed?</p>
+      </div>
+
+      <h2 class="heading-md reveal cs-heading" style="margin:44px 0 16px;">The Competitive Insight</h2>
+      <div class="body-copy reveal">
+        <p>The competitor review uncovered something important.</p>
+        <p>Other email marketing tools were already helping users think about things like spam risk, content quality and email performance.</p>
+        <p>MailDrip already had an AI capability and a scoring system.</p>
+        <p>The opportunity wasn't simply to add another AI feature.</p>
+        <p>It was to connect the AI to the user's actual goal.</p>
+        <p>Instead of generating generic content, the experience could ask for the context that would make the output more relevant:</p>
+        <p>Who is sending this?<br>Who is it for?<br>What are you trying to achieve?<br>What should the email sound like?</p>
+        <p>That gave the AI a much clearer job to do.</p>
+      </div>
+
+      <h2 class="heading-md reveal cs-heading" style="margin:44px 0 16px;">From Findings to Product Direction</h2>
+      <div class="body-copy reveal">
+        <p>The research led to changes across the Instant Email experience.</p>
+        <h3 style="font-size:19px; margin-bottom:10px;">Make progress easier to understand</h3>
+      </div>
+
+      <div class="grid-image ratio-auto reveal" style="margin:0 0 20px;">
+        <img src="assets/images/image1.png" alt="Redesigned progress indicator for the Instant Email workflow">
+      </div>
+      <div class="grid-image ratio-auto reveal" style="margin:0 0 40px;">
+        <img src="assets/images/image12.png" alt="Guided workflow with clearer completion feedback">
+      </div>
+
+      <div class="body-copy reveal">
+        <p>Instead of making users interpret ambiguous states, we explored clearer completion feedback and a more guided workflow.</p>
+        <h3 style="font-size:19px; margin:28px 0 8px;">Reduce competing actions</h3>
+        <p>The experience was reorganised so users could more easily understand the primary action at each stage.</p>
+        <h3 style="font-size:19px; margin:28px 0 8px;">Make AI generation more intentional</h3>
+      </div>
+
+      <div class="grid-image ratio-auto reveal" style="margin:0 0 40px;">
+        <img src="assets/images/image16.png" alt="Redesigned AI email generation flow asking for audience, goal, content, and tone context">
+      </div>
+
+      <div class="body-copy reveal">
+        <p>The AI flow was structured around the information that actually affects the quality of an email.</p>
+        <p>Rather than:</p>
+        <p>"Generate an email."</p>
+        <p>The experience began asking for useful context around audience, campaign goal, content and brand tone.</p>
+        <h3 style="font-size:19px; margin:28px 0 8px;">Bring quality checks closer to the task</h3>
+        <p>Spam checking and content guidance became part of the email creation experience rather than something users had to think about separately.</p>
+      </div>
+
+      <div class="grid-image ratio-auto reveal" style="margin:0 0 20px;">
+        <img src="assets/images/image19.png" alt="Spam and content quality checking integrated into the email creation flow">
+      </div>
+      <div class="grid-image ratio-auto reveal" style="margin:0 0 64px;">
+        <img src="assets/images/image7.png" alt="Content quality guidance shown within the email builder">
+      </div>
+
+      <h2 class="heading-md reveal cs-heading" style="margin-bottom:20px;">What Changed</h2>
+      <div class="body-copy reveal">
+        <p>The research helped move the conversation from:</p>
+        <p>"What else should we add?"</p>
+        <p>to:</p>
+        <p>"How can we make what already exists easier to understand and more useful?"</p>
+        <p>The resulting direction focused on:</p>
+        <ul style="line-height:1.9;">
+          <li>Clearer completion states</li>
+          <li>Stronger visual hierarchy</li>
+          <li>Fewer competing actions</li>
+          <li>Better progress guidance</li>
+          <li>More contextual AI generation</li>
+          <li>Spam and content-quality guidance</li>
+          <li>A more intentional email creation flow</li>
+        </ul>
+      </div>
+
+      <h2 class="heading-md reveal cs-heading" style="margin:44px 0 16px;">Validation &amp; Iteration</h2>
+      <div class="body-copy reveal">
+        <p>The recommendations were not treated as a final answer.</p>
+        <p>As changes were explored, I continued looking at whether they addressed the original problems and whether new friction was being introduced.</p>
+        <p>This helped the team refine the experience around:</p>
+        <ul style="line-height:1.9;">
+          <li>onboarding into the email workflow</li>
+          <li>completing each section</li>
+          <li>understanding AI actions</li>
+          <li>improving generated content</li>
+          <li>identifying potential spam issues</li>
+          <li>moving confidently toward sending</li>
+        </ul>
+      </div>
+
+      <h2 class="heading-md reveal cs-heading" style="margin:44px 0 16px;">Impact</h2>
+      <div class="body-copy reveal">
+        <p>The research shifted the focus from adding functionality to reducing uncertainty.</p>
+        <p>It gave the Product and Design teams clearer direction around:</p>
+        <ul style="line-height:1.9;">
+          <li>How users understood the workflow</li>
+          <li>Where the interface was creating unnecessary cognitive load</li>
+          <li>How completion states should communicate progress</li>
+          <li>Where AI could provide more useful assistance</li>
+          <li>How competitor patterns could inform MailDrip's own experience</li>
+        </ul>
+        <p>Most importantly, the research helped connect usability findings with actual product decisions rather than treating the evaluation as a list of UI problems.</p>
+      </div>
+
+      <h2 class="heading-md reveal cs-heading" style="margin:44px 0 16px;">Key Takeaway</h2>
+      <div class="body-copy reveal">
+        <p>The biggest lesson from this work was simple:</p>
+        <p>A feature can be complete and still feel difficult to use.</p>
+        <p>The work wasn't about adding more to Instant Email.</p>
+        <p>It was about helping users understand where they are, what they need to do, and how MailDrip can help them do it well.</p>
+      </div>
+
+      <div class="dual-card-wrap reveal">
+        <div class="dual-card dual-card--top">
+          <span class="dual-card-label">The Symptom</span>
+          <p class="dual-card-text">Users weren't always sure how to use it.</p>
+        </div>
+        <span class="dual-card-connector" aria-hidden="true"></span>
+        <div class="dual-card dual-card--bottom">
+          <span class="dual-card-label">The Fix</span>
+          <p class="dual-card-text">Helping users understand where they are, what they need to do, and how MailDrip can help them do it well.</p>
+        </div>
+      </div>
+
+      <div class="reveal" style="margin-top:64px; padding-top:40px; border-top:1px solid var(--border); display:flex; justify-content:space-between; flex-wrap:wrap; gap:20px;">
+        <a href="case-study-1.html" class="btn btn-secondary">← Previous Case Study</a>
+        <a href="case-study-3.html" class="btn btn-primary">Next Case Study →</a>
+      </div>
+
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-col footer-col--brand">
+      <p class="footer-name"><a href="mailto:hannahdaniel195@gmail.com">Hannah M. Daniel</a></p>
+      <p class="footer-years">2024 — Present</p>
+    </div>
+    <div class="footer-col">
+      <p class="footer-col-label">Site</p>
+      <ul class="footer-nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="work.html">Selected Work</a></li>
+        <li><a href="expertise.html">Expertise</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="impact.html">Impact</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <p class="footer-col-label">Where to find me</p>
+      <ul class="footer-nav-list">
+        <li><a href="mailto:hannahdaniel195@gmail.com">Email</a></li>
+        <li><a href="https://linkedin.com/in/YOUR-USERNAME" target="_blank" rel="noopener">LinkedIn ↗</a></li>
+        <li><a href="https://x.com/YOUR-USERNAME" target="_blank" rel="noopener">X ↗</a></li>
+        <li><a href="https://medium.com/@YOUR-USERNAME" target="_blank" rel="noopener">Medium ↗</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<style>
+main { --cs-accent: #2E6690; }
+.body-copy p, .body-copy ul { margin-bottom: 24px; color:var(--text-secondary); line-height:1.8; font-size:18px; }
+.body-copy ul { padding-left: 24px; }
+</style>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
